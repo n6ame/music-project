@@ -39,7 +39,7 @@ body {
     .title {
         font-size: 32px;
         font-weight: 700;
-        color: #C6A7A7;
+        color: #de1212a5;
     }
     .subtitle {
         font-size: 15px;
@@ -51,6 +51,12 @@ body {
     }
     .embed {
        
+    }
+    .format {
+        font-size: 14px;
+    }
+    .favorite-song {
+        font-size: 14px;
     }
     .text {
         font-size: 15px;
