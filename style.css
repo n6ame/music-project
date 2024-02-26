@@ -10,6 +10,40 @@ body {
     }
 }
 
+/* Controls/Buttons to change your theme */
+.btns {
+    display: flex;
+    gap: 8px;
+}
+
+.btn {
+    display: flex;
+    cursor: pointer;
+}
+
+/* This looks complicated, but what we are saying is */
+/* <body> has an input somewhere inside it that is checked/selected */
+/* if the value is ocean, change the varibles to blue */
+/* if the value is forest, change the variables to green */
+body:has(input[value="light"]:checked) {
+    background: #b2b9ea;
+    color: black;
+    .post {
+        .title {
+            color: rgb(8, 8, 94);
+        }
+        .subtitle {
+            color: black;
+        }
+        .date {
+            color: black;
+        }
+        .tag {
+            color: black;
+        }
+    }
+}
+
 .page-title {
     font-size: 90px;
     font-weight: 900;
