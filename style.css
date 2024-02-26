@@ -74,28 +74,34 @@ body:has(input[value="light"]:checked) {
     .title {
         font-size: 32px;
         font-weight: 700;
-        color: #de1212a5;
+        color: #9b0606;
     }
     .subtitle {
         font-size: 15px;
-        color: #EDDEDE;
+        color: #afadad;
     }
     .date {
         font-size: 12px;
-        color: #EDDEDE;
+        color:#afadad;
     }
     .embed {
        
     }
     .format {
         font-size: 14px;
+        color:#afadad;
     }
     .favorite-song {
         font-size: 14px;
+        color:#afadad;
     }
-    .text {
-        font-size: 15px;
-        color: #EDDEDE;
+    .favorite-lyrics {
+        font-size: 14px;
+        color:#afadad;
+    }
+    .thoughts {
+        font-size: 20px;
+        color:#afadad;
     }
     .tags {
         display: flex;
@@ -103,7 +109,7 @@ body:has(input[value="light"]:checked) {
     }
     .tag {
         font-size: 12px;
-        color: white;
+        color:#afadad;
         text-decoration: underline;
     }
     .stars {
