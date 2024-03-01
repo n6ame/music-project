@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
 body {
     background: #221C1C;
     color: whitesmoke;
@@ -8,7 +10,7 @@ body {
         margin: 20px;  
         padding: 0;
     }
-}
+}  
 
 /* Controls/Buttons to change your theme */
 .btns {
@@ -58,8 +60,9 @@ body:has(input[value="light"]:checked) {
 }
 
 .page-title {
+    font-family: "Concert One", sans-serif;
     font-size: 90px;
-    font-weight: 900;
+    font-weight: 400;
     margin: 0;
     padding-bottom: 49px;
 
@@ -84,8 +87,9 @@ body:has(input[value="light"]:checked) {
     }
 
     .title {
+        font-family: "Concert One", sans-serif;
         font-size: 32px;
-        font-weight: 700;
+        font-weight: 400;
         color: #9b0606;
     }
     .subtitle {
